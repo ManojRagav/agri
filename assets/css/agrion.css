@@ -11944,29 +11944,33 @@ body.boxed-wrapper {
   font-size: xx-large !important;
   margin: 1% 9% 1%;
 }
-.chairman_desc{
-  min-height: 500px;
-  width: 98%;
+.chairman_description_container{
+  height: auto;
+  /* width: 98%; */
   /* border: solid 2px red; */
-  margin: 2%  auto;
+  margin: 2% 2.5%;
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20;
 }
 .chairman_img{
-  height: 350px;
-  width: 30%;
-  /* border: solid 1px green; */
-  margin: 4% 0 0 8%;
+  height: 470px;
+  width: 550px;
+  /* border: solid 2px red; */
+  /* margin: 4% 0 0 8%; */
   object-fit: cover;
   align-content: center;
 }
+.chairman_img_data{
+  height: 350px;
+  width: 350;
+  margin: 7% 10%;
+}
 .chairman_details{
   height: 470px;
-  width: 50%;
+  width: 550px;
   /* border: solid 2px green; */
-  margin: 0%  0% 0% auto;
+  /* margin: 0%  0% 0% auto; */
 }
 .section-title-chairman_name{
   color: #000000;
@@ -11987,7 +11991,7 @@ body.boxed-wrapper {
   height: auto;
   width: 95%;
   /* border: solid 2px red; */
-  margin: 2% auto;
+  margin: 3% auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -11995,7 +11999,7 @@ body.boxed-wrapper {
 }
 .content_contain1{
   height: auto;
-  width: 45%;
+  width: 550px;
   /* border: solid 2px green; */
   margin-left: 3%;
 }
@@ -12047,7 +12051,12 @@ body.boxed-wrapper {
   margin: 2% auto;
   /* border: solid 2px green; */
   object-fit: cover;
+  background-image: url('../images/resources/MITEC.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 .venue_desc_container{
   height: auto;
   width: 90%;
@@ -12072,7 +12081,7 @@ body.boxed-wrapper {
   font-size: large;
 }
 .location_container{
-  height: 300px;
+  height: auto;
   width: 90%;
   margin: 3% auto;
   /* border: solid 2px red; */
@@ -12143,7 +12152,7 @@ body.boxed-wrapper {
 }
 .speakers_img{
   height: 350px;
-  width: 30%;
+  width: 350px;
   /* border: solid 1px green; */
   margin: 4% 0 0 8%;
   object-fit: cover;
@@ -12151,14 +12160,16 @@ body.boxed-wrapper {
 }
 .speakers_details{
   height: 470px;
-  width: 50%;
+  width: 600px;
   /* border: solid 2px green; */
   margin: 4%  0% 0% auto;
+  text-align: justify;
 }
 .section-title-speakers_name{
   color: #000000;
   font-size: xx-large !important;
   margin: 1% 8% 0.5%;
+  text-align: justify;
 }
 .section-sub-spearsname{
   margin: 1% 8% 0%;
@@ -12197,6 +12208,7 @@ body.boxed-wrapper {
   height: auto;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .speaker_profile_img{
   height: 250px;
