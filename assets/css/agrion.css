@@ -11936,7 +11936,7 @@ body.boxed-wrapper {
 /* custom css */
 .chairman-container{
   height: auto;
-  margin: 0 6%;
+  margin: 4% 6% 0;
   /* border: solid 1px black; */
 }
 .section-title-chairman{
@@ -11989,7 +11989,7 @@ body.boxed-wrapper {
 }
 .scientific_content_container{
   height: auto;
-  width: 95%;
+  width: 98%;
   /* border: solid 2px red; */
   margin: 3% auto;
   display: flex;
@@ -12138,31 +12138,30 @@ body.boxed-wrapper {
 .section-title-speakers{
   color: #000000;
   font-size: xx-large !important;
-  margin: 1% 9% 0%;
+  margin: 1% 6% 0%;
 }
 .speakers_desc{
-  min-height: 500px;
-  width: 98%;
+  height: auto;
+  width: 95%;
   /* border: solid 2px red; */
   margin: 1%  auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 20;
 }
 .speakers_img{
   height: 350px;
   width: 350px;
   /* border: solid 1px green; */
-  margin: 4% 0 0 8%;
+  margin: 4% 0 4% 6%;
   object-fit: cover;
   align-content: center;
 }
 .speakers_details{
-  height: 470px;
+  height: auto;
   width: 600px;
   /* border: solid 2px green; */
-  margin: 4%  0% 0% auto;
+  margin: 4%  0% 2% 2%;
   text-align: justify;
 }
 .section-title-speakers_name{
@@ -12188,7 +12187,7 @@ body.boxed-wrapper {
 }
 .speaker_container{
   height: auto;
-  margin: 3% 4%;
+  margin: 5% 4%;
   /* border: solid 2px black; */
 }
 .speaker_content_container{
@@ -12196,23 +12195,26 @@ body.boxed-wrapper {
   width: 97%;
   /* border: solid 2px red; */
   margin: 3% auto;
-  gap: 10;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.speaker_content_container{
+.speaker_content_contain1{
   height: auto;
-  width: 90%;
-  /* border: solid 2px green; */
-  margin-left: 10%;
+  width: 600px;
+  /* border: solid 2px green */
 }
 .box1{
   height: auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  /* border: solid 2px yellow */
+
 }
 .speaker_profile_img{
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   /* border: solid 2px red; */
   border-radius: 50%;
   margin: 3% 0 2%;
@@ -12220,13 +12222,13 @@ body.boxed-wrapper {
 }
 .speaker_profile_description{
   height: auto;
-  width: 650px;
+  width: 400px;
   /* border: solid 2px red; */
-  margin: 6% 0;
+  margin: 4% 0;
   white-space: wrap;
 }
 .speaker_head_text{
-  font-size: x-large;
+  font-size: 22px;
   color: #0e2207;
   font-weight: 600;
 }
@@ -12240,7 +12242,7 @@ body.boxed-wrapper {
 }
 .speaker_title{
   margin: 3% 0 0;
-  font-size: x-large;
+  /* font-size: large; */
   /* font-weight: bold; */
   color: #0e2207;
 
